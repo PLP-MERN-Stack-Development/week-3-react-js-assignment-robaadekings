@@ -1,71 +1,14 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19815532&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+ Task Manager – Built with React, Vite, Tailwind CSS, and shadcn/ui
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+The Task Manager project is a responsive and modern web application designed to help users manage their daily tasks efficiently. Built using React as the core UI library, the project takes full advantage of Vite's blazing-fast development environment to deliver a smooth and responsive experience. Styling is handled with Tailwind CSS, enabling utility-first design that keeps the UI clean and consistent, while shadcn/ui provides beautifully prebuilt components that are fully accessible and easy to integrate.
 
-## Assignment Overview
+Users can create, update, and delete tasks, with the option to mark them as completed or active. The interface supports task filtering by status and includes a search function to quickly find specific tasks. The application is designed with nice background mode support, making it comfortable to use in any environment. All interactions are designed to be intuitive and fast, thanks to the combination of React’s reactivity and shadcn/ui’s headless component architecture.
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+To set up the project locally, simply clone the repository, install dependencies using npm or pnpm, and start the development server with `npm run dev`. The project is organized with reusable components in the `components/` directory, page-level containers in `pages/`, and additional utilities and hooks that support the application logic. This structure makes it easy to extend the project or integrate new features as needed.
 
-## Getting Started
+shadcn/ui is used for its elegant design system and customizable headless components that integrate seamlessly with Tailwind CSS. Developers can add new components to the project with a single command (`npx shadcn-ui@latest add [component]`), enabling fast iteration while maintaining accessibility and design consistency.
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+When ready for deployment, the project can be built using `npm run build` and deployed to platforms like Vercel, Netlify, or GitHub Pages without additional configuration. The simplicity of Vite’s output and Tailwind’s static styles make for quick deployment and excellent performance out of the box.
 
-## Files Included
+Contributions are welcome via pull requests or issues for discussion. Whether you're managing personal tasks or exploring modern front-end tooling, this Task Manager app is a great foundation for productivity and learning.
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
-
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
-
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
